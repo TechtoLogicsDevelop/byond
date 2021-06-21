@@ -1,0 +1,471 @@
+.hummus{
+  max-width: 100%;
+
+  display: flex;
+  width: 100%;
+  
+}
+.hummus__bg{
+  position: relative;
+  
+  
+  
+}
+.hummus__bg >img{
+  width: 100%;
+}
+
+.hummus__back{
+  
+  position: absolute;
+    top: 31%;
+    width: 40%;
+    left: 9%;
+}
+.hummus__back >img{
+  width: 40%;
+}
+.hummus__front{
+  position: absolute;
+  /* border: 1px solid black; */
+  top: 41px;
+  left: 14%;
+  width: 48%;
+ 
+}
+.hummus__front >img{
+  width:60%;
+}
+.hummus__1{
+  position: absolute;
+    top: 47%;
+    left: 36%;
+}
+.hummus__1 > img {
+  width: 75%;
+}
+.hummus__2{
+  position: absolute;
+  /* border: 3px solid red; */
+  top: 30%;
+  left: 46%;
+}
+.hummus__2 >img{
+  width: 54%;
+}
+.hummus__3{
+  position: absolute;
+  /* border: 1px solid red; */
+  top: 67%;
+  left: 0%;
+}
+.hummus__3 > img{
+  width:80%;
+}
+.hummus__tabel{
+ 
+  max-width: 75%;
+  margin-top: 50px;
+}
+.image__top{
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: float 5s ease-in-out infinite;
+}
+.image__second{
+  position: absolute;
+  top:0;
+  
+    
+}
+.image__thrid{
+position: absolute;
+top:10px;
+opacity: 0.7; 
+}
+.image__top > img{
+  width: 100%;
+}
+.image__second > img{
+  width: 100%;
+}
+.image__thrid >img{
+  width: 100%;
+}
+
+
+ .hummus__ingridents{
+  display: flex;
+    position: absolute;
+    color: whitesmoke;
+    top: 75%;
+    width: 67%;
+    left: 2%;
+  
+ 
+}
+.hummus__ingridents > img {
+  padding-left: 20px;
+} 
+.ingridents__title{
+  display: flex;
+  position: absolute;
+  bottom: 4%;
+  width: 45%;
+  color: whitesmoke;
+  left: 4%;
+
+}
+.humms__content{
+  position: absolute;
+    bottom: 28%;
+    right: 5%;
+     /* border: 1px solid red; */
+    width: 30%;
+
+}
+.humms__content > p{
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  font-style: italic;
+}
+.humms__content > h1{
+  color: #8b5827;
+  margin-top: 8px;
+}
+.name__content{
+  display: flex;
+  margin-top: 8px;
+}
+.name__content > hr{
+  width:35%;
+}
+.cricle-box{
+  display: flex;
+  margin-top: 8px;
+}
+.cricle-box1{
+  display: flex;
+  color: white;
+}
+.cricle{
+  display: flex;
+  height: 45px;
+    width: 47px;
+  background-color:white;
+  border-radius: 50%;
+}
+.box__button{
+  position: absolute;
+  right: 8%;
+  bottom: 18%;
+  margin-top: 1px;
+    margin-left: 60px;
+}
+.box__button > button {
+  background-color:#854810;
+  border-radius: 23px;
+  margin-top: 8px;
+  padding-right: 30px;
+    margin-left: 16px;
+    color: whitesmoke;
+}
+.humms__health{
+  display: inline-block;
+  position: absolute;
+  border:1px solid greenyellow;
+  top: 18%;
+  right: 0;
+  color: whitesmoke;
+}
+.nut__3{
+  position: absolute;
+  top: 23%;
+  /* left: 45%; */
+  right: 23%;
+}
+.nut__3 > img{
+  width: 30%
+}
+.nut__4{
+  position: absolute;
+    bottom: 31%;
+    right: 15%;
+}
+.nut__4 > img{
+  width: 70%
+}
+.nut__5{
+  position: absolute;
+    top: 42%;
+    /* left: 55%; */
+    right: 12%;
+}
+.nut__5 > img{
+  width: 60%
+}
+.chickpeatitle1{
+  position: absolute;
+  top:5%;
+  right: 0%;
+}
+.chickpeatitle1 > img{
+  width: 65%;
+}
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-40px);
+	}
+	100% {
+	
+		transform: translatey(-80px);
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px){
+  
+  .hummus{
+  width: 250px;
+  border: 1px solid red;
+
+    
+  }
+  .hummus__bg{
+  position: relative;    
+
+    
+    
+  }
+  .hummus__bg >img{
+    width: 250px;
+  }
+  
+}
+
+
+@media screen and (min-width: 1024px){
+  .hummus{
+    max-width: 100%;
+  
+    display: flex;
+    width: 100%;
+    
+  }
+  .hummus__bg{
+    position: relative;
+    
+    
+    
+  }
+  .hummus__bg >img{
+    width: 100%;
+  }
+  
+  .hummus__back{
+    
+    position: absolute;
+      top: 31%;
+      width: 40%;
+      left: 9%;
+  }
+  .hummus__back >img{
+    width: 40%;
+  }
+  .hummus__front{
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 41px;
+    left: 14%;
+    width: 48%;
+   
+  }
+  .hummus__front >img{
+    width:60%;
+  }
+  .hummus__1{
+    position: absolute;
+      top: 47%;
+      left: 36%;
+  }
+  .hummus__1 > img {
+    width: 75%;
+  }
+  .hummus__2{
+    position: absolute;
+    /* border: 3px solid red; */
+    top: 30%;
+    left: 46%;
+  }
+  .hummus__2 >img{
+    width: 54%;
+  }
+  .hummus__3{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 67%;
+    left: 0%;
+  }
+  .hummus__3 > img{
+    width:80%;
+  }
+  .hummus__tabel{
+   
+    max-width: 75%;
+    margin-top: 50px;
+  }
+  .image__top{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: float 5s ease-in-out infinite;
+  }
+  .image__second{
+    position: absolute;
+    top:0;
+    
+      
+  }
+  .image__thrid{
+  position: absolute;
+  top:10px;
+  opacity: 0.7; 
+  }
+  .image__top > img{
+    width: 100%;
+  }
+  .image__second > img{
+    width: 100%;
+  }
+  .image__thrid >img{
+    width: 100%;
+  }
+  
+  
+   .hummus__ingridents{
+    display: flex;
+      position: absolute;
+      color: whitesmoke;
+      top: 75%;
+      width: 67%;
+      left: 2%;
+    
+   
+  }
+  .hummus__ingridents > img {
+    padding-left: 20px;
+  } 
+  .ingridents__title{
+    display: flex;
+    position: absolute;
+    bottom: 4%;
+    width: 45%;
+    color: whitesmoke;
+    left: 4%;
+  
+  }
+  .humms__content{
+    position: absolute;
+      bottom: 28%;
+      right: 5%;
+       /* border: 1px solid red; */
+      width: 30%;
+  
+  }
+  .humms__content > p{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .humms__content > h1{
+    color: #8b5827;
+    margin-top: 8px;
+  }
+  .name__content{
+    display: flex;
+    margin-top: 8px;
+  }
+  .name__content > hr{
+    width:35%;
+  }
+  .cricle-box{
+    display: flex;
+    margin-top: 8px;
+  }
+  .cricle-box1{
+    display: flex;
+    color: white;
+  }
+  .cricle{
+    display: flex;
+    height: 45px;
+      width: 47px;
+    background-color:white;
+    border-radius: 50%;
+  }
+  .box__button{
+    position: absolute;
+    right: 8%;
+    bottom: 18%;
+    margin-top: 1px;
+      margin-left: 60px;
+  }
+  .box__button > button {
+    background-color:#854810;
+    border-radius: 23px;
+    margin-top: 8px;
+    padding-right: 30px;
+      margin-left: 16px;
+      color: whitesmoke;
+  }
+  .humms__health{
+    display: inline-block;
+    position: absolute;
+    border:1px solid greenyellow;
+    top: 18%;
+    right: 0;
+    color: whitesmoke;
+  }
+  .nut__3{
+    position: absolute;
+    top: 23%;
+    /* left: 45%; */
+    right: 23%;
+  }
+  .nut__3 > img{
+    width: 30%
+  }
+  .nut__4{
+    position: absolute;
+      bottom: 31%;
+      right: 15%;
+  }
+  .nut__4 > img{
+    width: 70%
+  }
+  .nut__5{
+    position: absolute;
+      top: 42%;
+      /* left: 55%; */
+      right: 12%;
+  }
+  .nut__5 > img{
+    width: 60%
+  }
+  .chickpeatitle1{
+    position: absolute;
+    top:5%;
+    right: 0%;
+  }
+  .chickpeatitle1 > img{
+    width: 65%;
+  }
+}
