@@ -1,0 +1,16 @@
+*{
+  margin: 0 auto;
+  
+}
+
+body{
+  background-color: #fce0c2;
+}
+.app{
+  width: 100%;
+}
+@media (max-width:480px){
+  .app{
+    width:100%;
+  }
+}
