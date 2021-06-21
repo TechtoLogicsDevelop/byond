@@ -1,0 +1,4 @@
+[2021-1-8 20:53:18] layer "no-artificial.png": Duplicate path: no-artificial.png
+[2021-1-8 20:53:18] layer "gluten.png": Duplicate path: gluten.png
+[2021-1-8 20:53:18] layer "5-gms.png": Duplicate path: 5-gms.png
+[2021-1-8 20:53:18] layer "no-artificial.png": Duplicate path: no-artificial.png

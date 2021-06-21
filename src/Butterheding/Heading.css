@@ -1,0 +1,22 @@
+.head-title{
+    display: flex;
+    margin-top: 50px;
+    border: 1px solid red;
+    background-color: #a5712aa3;
+    z-index: 2;
+}
+.head-title-left{
+    
+    text-align: end;
+    color: wheat;
+}
+.head-title-right{
+    color: wheat;
+    text-align: start;
+}
+.head-title-left:hover{
+    color: whitesmoke;
+}
+.head-title-right:hover{
+    color: whitesmoke;
+}
