@@ -1,0 +1,221 @@
+.peanut{
+    max-width: 100%;
+  
+    display: flex;
+    width: 100%;
+    
+  }
+  .peanut__bg{
+    position: relative;
+    /* border: 5px solid yellow; */
+    
+    
+    
+  }
+  .peanut__bg >img{
+    width: 100%;
+  }
+  
+  .peanut__back{
+    
+    position: absolute;
+      top: 34%;
+      width: 18%;
+      left: 80%;
+      /* border: 3px solid red; */
+  }
+  .peanut__back >img{
+    width: 94%;
+  }
+  .peanut__front{
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 12%;
+    left: 67%;
+    width: 33%;
+    
+   
+  }
+  .peanut__front >img{
+    width:82%;
+  }
+  .Products{
+    border: 1px solid grey;
+  }
+  .peanut__1{
+    position: absolute;
+      top: 50%;
+      left:50%;
+      /* border: 3px solid red; */
+  }
+  .peanut__1 > img {
+    width: 75%;
+  }
+  .peanut__2{
+    position: absolute;
+    /* border: 3px solid red; */
+    top: 38%;
+    left: 63%;
+  }
+  .peanut__2 >img{
+    width: 54%;
+  }
+  .peanut__3{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 71%;
+    left: 38%;
+    
+  }
+  .peanut__3 > img{
+    width:100%;
+  }
+  .peanut__tabel{
+   
+    max-width: 75%;
+    margin-top: 50px;
+  }
+  .peanut__image__top{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: float 5s ease-in-out infinite;
+  }
+  .peanut__image__second{
+    position: absolute;
+    top:0;
+    
+      
+  }
+  .peanut__image__thrid{
+  position: absolute;
+  top:10px;
+  opacity: 0.3; 
+  }
+  .peanut__image__top > img{
+    width: 100%;
+  }
+  .peanut__image__second > img{
+    width: 100%;
+  }
+  .peanut__image__thrid >img{
+    width: 100%;
+  }
+  
+  
+   .peanut__ingridents{
+    display: flex;
+      position: absolute;
+      color: whitesmoke;
+      bottom: 4%;
+      width: 60%;
+      right: 2%;
+    
+   
+  }
+  .peanut__ingridents > img {
+    padding-left: 20px;
+  } 
+  .peanut__ingridents__title{
+    display: flex;
+    position: absolute;
+    bottom: 1%;
+    width: 38%;
+    color: whitesmoke;
+    right:20%;
+  
+  }
+  .peanut__content{
+    position: absolute;
+    bottom: 12%;
+    left: 12%;
+       /* border: 1px solid blue; */
+      width: 30%;
+  
+  }
+  .peanut__content > p{
+    margin-top: 6px;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .peanut__content > h1{
+    margin-top: 2px;
+    color: #973404;
+  }
+ 
+  .peanut__content > hr{
+    margin-top: 6px;
+    width:35%;
+  }
+  .peanut__cricle-box{
+    display: flex;
+    margin-top: 16px;
+  }
+  .peanut__cricle-box1{
+    display: flex;
+    color: white;
+  }
+  .peanut__cricle{
+    display: flex;
+    margin-top: 16px;
+    height: 45px;
+      width: 47px;
+    background-color:white;
+    border-radius: 50%;
+  }
+  .peanut__box__button > button {
+    background-color: #973404;
+    margin-top: 16px;
+    border-radius: 23px;
+    padding-right: 30px;
+      margin-left: 32px;
+      color: whitesmoke;
+  }
+  .peanut__health{
+    display: inline-block;
+    position: absolute;
+    border:1px solid greenyellow;
+    top: 30%;
+    left: 4%;
+    
+    color: whitesmoke;
+
+  }
+  .pea__nut{
+    position: absolute;
+    top: 16%;
+    left: 6%; 
+  }
+  .pea__nut > img{
+    width: 50%
+  }
+  .pea__nut1{
+    position: absolute;
+    top: 12%;
+    left: 45%;
+    /* border: 1px solid red; */
+
+  }
+  .pea__nut1 > img{
+    width: 50%;
+  }
+
+  .nut__image{
+    position: absolute;
+    top: 32%;
+    right: 39%;
+  }
+  .nut__image > img{
+    width: 75%;
+
+  }
+  .peanut__title__image{
+    position: absolute;
+    top:8%;
+    left: 10%;
+  }
+  .peanut__title__image > img{
+    width: 65%;
+  }

@@ -1,0 +1,231 @@
+.veg{
+   
+  
+    display: flex;
+    width: 100%;
+    
+    
+  }
+  .veg__bg{
+    position: relative;
+    
+    
+    
+  }
+  .veg__bg >img{
+    width: 100%;
+  }
+  
+  .veg__back{
+    
+    position: absolute;
+    top: 34%;
+    width: 18%;
+    left: 80%;
+    /* border: 3px solid red; */
+  }
+  .veg__back >img{
+    width: 94%;
+  }
+  .veg__front{
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 12%;
+    left: 67%;
+    width: 33%;
+   
+  }
+  .veg__front >img{
+    width:82%;
+  }
+  .veg__1{
+    position: absolute;
+    top: 50%;
+    left:50%;
+  }
+  .veg__1 > img {
+    width: 75%;
+  }
+  .veg__2{
+    position: absolute;
+    /* border: 3px solid red; */
+    top: 52%;
+    left: 45%;
+  }
+  .veg__2 >img{
+    width: 54%;
+  }
+  .veg__3{
+    position: absolute;
+    /* border: 1px solid red; */
+    bottom: 12%;
+    left: 38%;
+  }
+  .veg__3 > img{
+    width:100%;
+  }
+  .veg__tabel{
+   
+    max-width: 75%;
+    margin-top: 50px;
+  }
+  .veg__image__top{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: float 5s ease-in-out infinite;
+  }
+  .veg__image__second{
+    position: absolute;
+    top:0;
+    
+      
+  }
+  .veg__image__thrid{
+  position: absolute;
+  top:10px;
+  opacity: 0.5; 
+  }
+  .veg__image__top > img{
+    width: 100%;
+  }
+  .veg__image__second > img{
+    width: 100%;
+  }
+  .veg__image__thrid >img{
+    width: 100%;
+  }
+  
+  
+   .veg__ingridents{
+    display: flex;
+      position: absolute;
+      color: whitesmoke;
+      bottom: 11%;
+      width: 55%;
+      right: 3%;
+    
+   
+  }
+  .veg__ingridents > img {
+    padding-left: 20px;
+  } 
+  .veg__ingridents__title{
+    display: flex;
+    position: absolute;
+    bottom: 4%;
+    width: 38%;
+    color: whitesmoke;
+    right:19%;
+  
+  }
+  .veg__content{
+    position: absolute;
+    bottom: 23%;
+    left: 14%;
+       /* border: 1px solid blue; */
+      width: 30%;
+  
+  }
+  .veg__content > p{
+    color: white;
+    margin-top: 6px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .veg__content > h1{
+    color: #1c5801;
+    margin-top: 6px;
+  }
+  .veg__name__content{
+    display: flex;
+    margin-top: 6px;
+  }
+  .veg__name__content > hr{
+    width:35%;
+  }
+  .veg__cricle-box{
+    display: flex;
+  }
+  .veg__cricle-box1{
+    display: flex;
+    color: white;
+  }
+  .veg__cricle{
+    display: flex;
+    margin-top: 6px;
+    height: 45px;
+      width: 47px;
+    background-color:white;
+    border-radius: 50%;
+  }
+  .veg__box__button > button {
+    background-color: #1c5801;
+    margin-top: 6px;
+    border-radius: 23px;
+    padding-right: 30px;
+    margin-left: 32px;
+    color: white;
+  }
+  .veg__health{
+    display: inline-block;
+    position: absolute;
+    /* border:1px solid greenyellow; */
+    top: 30%;
+    left: 4%;
+    
+    color: whitesmoke;
+  }
+.veg__5{
+  position: absolute;
+  top: 37%;
+  left: 56%;
+}
+.veg__5 > img{
+  width: 54%;
+
+}
+.veg__6{
+  position: absolute;
+  top: 19%;
+  left: 0%;
+}
+.veg__6 > img{
+  width: 44%;
+}
+.veg__7 {
+  
+  position: absolute;
+    bottom: 0%;
+    left: 0%;
+
+}
+.veg__7 > img{
+  width: 55%;
+}
+
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-40px);
+	}
+	100% {
+	
+		transform: translatey(-80px);
+	}
+}
+
+
+.veg__title__image{
+  position: absolute;
+  top:8%;
+  left: 8%;
+}
+.veg__title__image > img{
+  width: 65%;
+}
