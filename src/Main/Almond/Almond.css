@@ -1,0 +1,229 @@
+.almond{
+    max-width: 100%;
+  
+    display: flex;
+    width: 100%;
+    
+  }
+  .almond__bg{
+    position: relative;
+    
+    
+    
+  }
+  .almond__bg >img{
+    width: 100%;
+  }
+  
+  .almond__back{
+    
+    position: absolute;
+      top: 31%;
+      width: 40%;
+      left: 9%;
+  }
+  .almond__back >img{
+    width: 40%;
+  }
+  .almond__front{
+    position: absolute;
+    /* border: 1px solid black; */
+    top: 41px;
+    left: 14%;
+    width: 48%;
+   
+  }
+  .almond__front >img{
+    width:60%;
+  }
+  .almond__1{
+    position: absolute;
+      top: 47%;
+      left: 36%;
+  }
+  .almond__1 > img {
+    width: 75%;
+  }
+  .almond__2{
+    position: absolute;
+    /* border: 3px solid red; */
+    top: 21%;
+    left: 41%;
+  }
+  .almond__2 >img{
+    width: 44%;
+  }
+  .almond__3{
+    position: absolute;
+    /* border: 1px solid red; */
+    top: 67%;
+    left: 0%;
+  }
+  .almond__3 > img{
+    width:80%;
+  }
+  .almond__tabel{
+   
+    max-width: 75%;
+    margin-top: 50px;
+  }
+  .almond__image__top{
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: float 4s ease-in-out infinite;
+  }
+  .almond__image__second{
+    position: absolute;
+    top:0;
+    
+      
+  }
+  .almond__image__thrid{
+  position: absolute;
+  top:10px;
+  opacity: 0.7; 
+  }
+  .almond__image__top > img{
+    width: 100%;
+  }
+  .almond__image__second > img{
+    width: 100%;
+  }
+  .almond__image__thrid >img{
+    width: 100%;
+  }
+  
+  
+   .almond__ingridents{
+    display: flex;
+      position: absolute;
+      color: whitesmoke;
+      top: 75%;
+      width: 67%;
+      left: 2%;
+    
+   
+  }
+  .almond__ingridents > img {
+    padding-left: 20px;
+  } 
+  .almond__ingridents__title{
+    display: flex;
+    position: absolute;
+    bottom: 4%;
+    width: 45%;
+    color: whitesmoke;
+    left: 4%;
+  
+  }
+  .almond__content{
+    position: absolute;
+      top: 33%;
+      right: 8%;
+      /* border: 1px solid lightcyan; */
+      width: 30%;
+  
+  }
+  .almond__content > p{
+
+    color: white;
+    margin-top: 36px;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+  }
+  .almond__content > h1{
+    color: #ac240e;
+    margin-top: 36px;
+  }
+  .almond__name__content{
+    display: flex;
+    margin-top: 36px;
+  }
+  .almond__name__content > hr{
+    width:35%;
+  }
+  .almond__cricle-box{
+    display: flex;
+  }
+  .almond__cricle-box1{
+    display: flex;
+    color: white;
+  }
+  .almond__cricle{
+    display: flex;
+    margin-top: 36px;
+    height: 45px;
+      width: 47px;
+    background-color:white;
+    border-radius: 50%;
+  }
+  .almond__box__button > button {
+    background-color:#ac240e;
+    margin-top: 36px;
+    border-radius: 23px;
+    padding-right: 30px;
+      margin-left: 32px;
+      color: whitesmoke;
+  }
+  .almond__health{
+    display: inline-block;
+    position: absolute;
+    border:1px solid greenyellow;
+    top: 30%;
+    right: 0;
+    color: whitesmoke;
+  }
+  .almond__nut{
+    position: absolute;
+    bottom: 18%;
+    right: 15%;
+  }
+  .almond__nut > img{
+    width: 75%;
+  }
+  .almond__nut5{
+    position: absolute;
+    top: 47%;
+    /* left: 57%; */
+    right: 31%;
+  }
+  .almond__nut5 > img{
+    width: 55%;
+  }
+  .almond__nut1{
+    position: absolute;
+    top: 14%;
+    right: 7%;
+  }
+  .almond__nut1 > img{
+    width: 75%;
+  }
+  .almond__nut2{
+    position: absolute;
+    top: 47%;
+    right: 14%;
+  }
+  .almondTitle1{
+    position: absolute;
+    top:5%;
+    right: 0%;
+  }
+  .almondTitle1 > img{
+    width: 65%;
+  }
+  @keyframes float {
+    0% {
+      
+      transform: translatey(0px);
+    }
+    50% {
+      
+      transform: translatey(-40px);
+    }
+    100% {
+    
+      transform: translatey(-80px);
+    }
+  }
